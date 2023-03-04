@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600&display=swap');
+
 *,
 *::before,
 *::after {
@@ -84,14 +87,15 @@ h1 {
     transform: translateY(-50%);
 }
 
-.display-conatiner button {
+.display-container button {
     position:absolute;
     top:50%;
     right:1.5rem;
     transform: translateY(-50%);
+    cursor: pointer;
 }
 
-.input-conatiner {
+.input-container {
     width:100%;
     background-color: var(--dk-violet);
     border-radius: 1rem;
@@ -119,7 +123,7 @@ h1 {
 }
 
 
-.strength-conatiner {
+.strength-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,15 +132,15 @@ h1 {
 }
 
 
-.strength-conatiner p{
+.strength-container p{
     color: var(--pl-white);
     font-size: 1.5rem;
 }
 
-.indiactor {
+.indicator {
      width:1.5rem;
      height:1.5rem;
-     border-radius:50%;
+     border-radius: 50%;
 }
 
 .generateButton {
@@ -151,6 +155,7 @@ h1 {
     color: var(--vb-yellow);
     font-weight: 600;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 
 .check {
@@ -183,7 +188,7 @@ h1 {
     font-size:1.05rem;
     font-weight: 600;
     left:50%;
-    top:-3.5px;
+    top:-10.5px;
     transform: translateX(-50%) translateY(40%);
 }
 
@@ -261,7 +266,7 @@ h1 {
 
 
 /*Homework -> Explore below code */
-* .slider::-moz-range-thumb {
+.slider::-moz-range-thumb {
     position: relative;
     z-index: 1;
     appearance: none;
